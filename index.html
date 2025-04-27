@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>N4m Trick | Cyber Security Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>N4m Trick - Cyber Security & Ethical Hacking</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#booking">Book Now</a></li>
+        <li><a href="#" onclick="showLogin()">Login</a></li>
+        <li><a href="#" onclick="logout()">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to the Future of Cyber Security</h2>
+    <p>Protect, Hack Ethically, and Grow Your Skills.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a team of ethical hackers and cyber security experts dedicated to educating and empowering the next generation of security professionals.</p>
+  </section>
+
+  <section id="tools">
+    <h2>Tools & Services</h2>
+    <ul>
+      <li>Penetration Testing</li>
+      <li>Network Security Audits</li>
+      <li>Bug Bounty Programs</li>
+      <li>Cyber Security Bootcamps</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>Customer Testimonials</h2>
+    <blockquote>"N4m Trick helped me land my first cyber security job!" – Alex</blockquote>
+    <blockquote>"Excellent hands-on learning tools." – Priya</blockquote>
+  </section>
+
+  <section id="booking">
+    <h2>Book a Session</h2>
+    <form id="bookingForm">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Your Query or Need..." required></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section id="loginSection" class="hidden">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p id="loginMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 N4m Trick. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
